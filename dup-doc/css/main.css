@@ -251,7 +251,21 @@ section p {
     width: 90% !important;
 }
 
+#about_KualiTlakah{
+    text-align: center;
+    background-color: #DDDDDD;
+}
 
+#about_KualiTlakah p{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#about_KualiTlakah hr{
+    width: 60%;
+    border: 1px solid white;
+}
 
 
 
