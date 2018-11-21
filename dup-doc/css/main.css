@@ -251,6 +251,15 @@ section p {
     width: 90% !important;
 }
 
+.infographic_container{
+    width: 100%;
+    text-align: center;
+}
+
+.infographic_container img{
+    width: 60% !important;
+}
+
 #about_KualiTlakah{
     text-align: center;
     background-color: #DDDDDD;
