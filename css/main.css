@@ -2610,6 +2610,7 @@ nav a:hover {
 
 /* FF9EF0 */
 
+/************************************loading_screen************************************/
 
 #loading_screen{
   position: fixed;
@@ -2639,4 +2640,10 @@ nav a:hover {
   #loading_screen {
     margin-top: -10px;
   }
+}
+
+/************************************custom_footer************************************/
+
+#custom_footer hr{
+  border: .5px solid #FF9EF0;
 }
