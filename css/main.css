@@ -2609,3 +2609,34 @@ nav a:hover {
 
 
 /* FF9EF0 */
+
+
+#loading_screen{
+  position: fixed;
+  z-index: 9999;
+  background-color: #E93976;
+  height: 100vh;
+  width: 100%;
+  margin-top: -50px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*visibility: hidden;*/
+}
+
+#loading_screen img{
+  height: 250px;
+}
+
+@media (max-width: 767px) {
+  #loading_screen {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 575px) {
+  #loading_screen {
+    margin-top: -10px;
+  }
+}
